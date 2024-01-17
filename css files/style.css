@@ -310,6 +310,7 @@ ul{
     white-space: nowrap;
     transition: all 0.3s ease;
     border: none;
+    
  }
  .btn:hover{
     transform: scale(1.05);
@@ -368,13 +369,15 @@ ul{
   .about .about-content .personal-info{
     flex: 0 0 60%;
     max-width: 60%;
+    max-height: 40%;
     
     margin-top: 40px;
+    margin-bottom: 10px;
     
   }
   .about .about-content .personal-info .buttons
   {
-    margin-top: 30px;
+    margin-top: 0px;
   }
   .about .about-content .personal-info .buttons .btn{
     margin-top: 10px;
